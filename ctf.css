@@ -1,0 +1,37 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 90px;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 80px;
+  background-color: #0f0f0f;
+}
+
+body > .container {
+  padding: 80px 15px 0;
+}
+.container .text-muted {
+  text-align: center;
+  margin: 0 0 0 0;
+}
+
+.text-muted > a:hover {
+	text-decoration: none;
+}
+
+#footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
